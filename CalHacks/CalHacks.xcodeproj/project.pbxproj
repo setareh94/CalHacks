@@ -14,6 +14,8 @@
 		0693ED8419DFE542002C01BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0693ED8319DFE542002C01BC /* Images.xcassets */; };
 		0693ED8719DFE542002C01BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0693ED8519DFE542002C01BC /* LaunchScreen.xib */; };
 		0693ED9319DFE542002C01BC /* CalHacksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0693ED9219DFE542002C01BC /* CalHacksTests.m */; };
+		0693ED9E19DFEC96002C01BC /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0693ED9D19DFEC96002C01BC /* DeviceViewController.m */; };
+		0693EDA119DFED05002C01BC /* DeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0693EDA019DFED05002C01BC /* DeviceDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		0693ED8C19DFE542002C01BC /* CalHacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalHacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0693ED9119DFE542002C01BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0693ED9219DFE542002C01BC /* CalHacksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalHacksTests.m; sourceTree = "<group>"; };
+		0693ED9C19DFEC96002C01BC /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
+		0693ED9D19DFEC96002C01BC /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
+		0693ED9F19DFED05002C01BC /* DeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailViewController.h; sourceTree = "<group>"; };
+		0693EDA019DFED05002C01BC /* DeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 			children = (
 				0693ED7A19DFE542002C01BC /* AppDelegate.h */,
 				0693ED7B19DFE542002C01BC /* AppDelegate.m */,
+				0693ED9C19DFEC96002C01BC /* DeviceViewController.h */,
+				0693ED9D19DFEC96002C01BC /* DeviceViewController.m */,
+				0693ED9F19DFED05002C01BC /* DeviceDetailViewController.h */,
+				0693EDA019DFED05002C01BC /* DeviceDetailViewController.m */,
 				0693ED7D19DFE542002C01BC /* ViewController.h */,
 				0693ED7E19DFE542002C01BC /* ViewController.m */,
 				0693ED8019DFE542002C01BC /* Main.storyboard */,
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0693ED9E19DFEC96002C01BC /* DeviceViewController.m in Sources */,
 				0693ED7F19DFE542002C01BC /* ViewController.m in Sources */,
+				0693EDA119DFED05002C01BC /* DeviceDetailViewController.m in Sources */,
 				0693ED7C19DFE542002C01BC /* AppDelegate.m in Sources */,
 				0693ED7919DFE542002C01BC /* main.m in Sources */,
 			);

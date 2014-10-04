@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DeviceDetailViewController.h
 //  CalHacks
 //
 //  Created by Setareh Lotfi on 10/4/14.
@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-
 
 @interface DeviceDetailViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;
@@ -22,6 +21,3 @@
 - (IBAction)save:(id)sender;
 
 @end
-
-@end
-
