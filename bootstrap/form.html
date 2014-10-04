@@ -2,25 +2,68 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>New Listing - Formoid html form</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="//www.parsecdn.com/js/parse-1.3.0.min.js"></script>
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Parse JavaScript Handlers -->
+    <script src="js/handler.js"></script>
 </head>
-<body class="blurBg-false" style="background-color:#EBEBEB">
+<body>
 
+<!--<form class="form-horizontal">-->
+    <fieldset>
 
+        <!-- Form Name -->
+        <legend>New Submission.</legend>
 
-<!-- Start Formoid form-->
-<link rel="stylesheet" href="form_files/formoid1/formoid-solid-dark.css" type="text/css" />
-<script type="text/javascript" src="form_files/formoid1/jquery.min.js"></script>
-<form enctype="multipart/form-data" class="formoid-solid-dark" style="background-color:#FFFFFF;font-size:14px;font-family:'Roboto',Arial,Helvetica,sans-serif;color:#34495E;max-width:580px;min-width:150px" method="post"><div class="title"><h2>New Listing</h2></div>
-	<div class="element-input"><label class="title"><span class="required">*</span></label><div class="item-cont"><input class="large" type="text" name="input" required="required" placeholder="Title"/><span class="icon-place"></span></div></div>
-	<div class="element-textarea"><label class="title"><span class="required">*</span></label><div class="item-cont"><textarea class="medium" name="textarea" cols="20" rows="5" required="required" placeholder="Description"></textarea><span class="icon-place"></span></div></div>
-	<div class="element-file"><label class="title"><span class="required">*</span></label><div class="item-cont"><label class="large" ><div class="button">Choose Picture</div><input type="file" class="file_input" name="file" required="required"/><div class="file_text">No file selected</div><span class="icon-place"></span></label></div></div>
-	<div class="element-email"><label class="title"></label><div class="item-cont"><input class="large" type="email" name="email" value="" placeholder="Email"/><span class="icon-place"></span></div></div>
-<div class="submit"><input type="submit" value="Submit"/></div></form><p class="frmd"><a href="http://formoid.com/v28.php">html form</a> Formoid.com 2.8</p><script type="text/javascript" src="form_files/formoid1/formoid-solid-dark.js"></script>
-<!-- Stop Formoid form-->
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="title">Title</label>
+            <div class="col-md-4">
+                <input id="title" name="title" type="text" placeholder="enter title here." class="form-control input-md" required="">
 
+            </div>
+        </div>
 
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="email">Email</label>
+            <div class="col-md-4">
+                <input id="email" name="email" type="text" placeholder="enter email here." class="form-control input-md" required="">
 
+            </div>
+        </div>
+
+        <!-- Textarea -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="description">Description</label>
+            <div class="col-md-4">
+                <textarea class="form-control" id="description" name="description">enter description here.</textarea>
+            </div>
+        </div>
+
+        <!-- File Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="pictures">Picture</label>
+            <div class="col-md-4">
+                <input id="pictures" name="pictures" class="input-file" type="file">
+            </div>
+        </div>
+
+        <!-- Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="submit"></label>
+            <div class="col-md-4">
+                <button onclick="formSubmit()" id="submit" name="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+
+    </fieldset>
+<!--</form>-->
+<!---->
 </body>
 </html>
