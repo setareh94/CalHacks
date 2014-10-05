@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<!--<form class="form-horizontal">-->
+<form class="form-horizontal" onsubmit="return formSubmit()" action="">
     <fieldset>
 
         <!-- Form Name -->
@@ -58,12 +58,12 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="submit"></label>
             <div class="col-md-4">
-                <button onclick="formSubmit()" id="submit" name="submit" class="btn btn-primary">Submit</button>
+                <input type="submit"  id="submit" name="submit" class="btn btn-primary"/>
             </div>
         </div>
 
     </fieldset>
-<!--</form>-->
+</form>
 <!---->
 </body>
 </html>
