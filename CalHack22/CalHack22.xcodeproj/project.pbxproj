@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067B40CF19E0AF31005EB36F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B40CE19E0AF31005EB36F /* main.m */; };
+		067B40DA19E0AF31005EB36F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067B40D919E0AF31005EB36F /* Images.xcassets */; };
+		067B40DD19E0AF31005EB36F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067B40DB19E0AF31005EB36F /* LaunchScreen.xib */; };
+		067B40E919E0AF31005EB36F /* CalHack22Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B40E819E0AF31005EB36F /* CalHack22Tests.m */; };
+		067B40F319E0AF58005EB36F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B40F219E0AF58005EB36F /* MessageUI.framework */; };
+		067B410619E0AF69005EB36F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B40F419E0AF68005EB36F /* MessageUI.framework */; };
+		067B410719E0AF69005EB36F /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B40F519E0AF68005EB36F /* Twitter.framework */; };
+		067B410819E0AF69005EB36F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B40F619E0AF68005EB36F /* Accounts.framework */; };
+		067B410919E0AF69005EB36F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B40F719E0AF68005EB36F /* Social.framework */; };
+		067B410A19E0AF69005EB36F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B40F819E0AF68005EB36F /* AdSupport.framework */; };
+		067B410B19E0AF69005EB36F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B40F919E0AF68005EB36F /* SystemConfiguration.framework */; };
+		067B410C19E0AF69005EB36F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B40FA19E0AF68005EB36F /* StoreKit.framework */; };
+		067B410D19E0AF69005EB36F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B40FB19E0AF68005EB36F /* Security.framework */; };
+		067B410E19E0AF69005EB36F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B40FC19E0AF68005EB36F /* QuartzCore.framework */; };
+		067B410F19E0AF69005EB36F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B40FD19E0AF68005EB36F /* MobileCoreServices.framework */; };
+		067B411019E0AF69005EB36F /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B40FE19E0AF68005EB36F /* libz.1.1.3.dylib */; };
+		067B411119E0AF69005EB36F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B40FF19E0AF68005EB36F /* CoreLocation.framework */; };
+		067B411219E0AF69005EB36F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B410019E0AF68005EB36F /* CFNetwork.framework */; };
+		067B411319E0AF69005EB36F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B410119E0AF68005EB36F /* AudioToolbox.framework */; };
+		067B411419E0AF69005EB36F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B410219E0AF69005EB36F /* Parse.framework */; };
+		067B411519E0AF69005EB36F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B410319E0AF69005EB36F /* UIKit.framework */; };
+		067B411619E0AF69005EB36F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B410419E0AF69005EB36F /* Foundation.framework */; };
+		067B411719E0AF69005EB36F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B410519E0AF69005EB36F /* CoreGraphics.framework */; };
+		067B413319E0AF96005EB36F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B411919E0AF96005EB36F /* AppDelegate.m */; };
+		067B413419E0AF96005EB36F /* NoLostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B411B19E0AF96005EB36F /* NoLostsViewController.m */; };
+		067B413519E0AF96005EB36F /* NoLostsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067B411C19E0AF96005EB36F /* NoLostsViewController.xib */; };
+		067B413619E0AF96005EB36F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B411E19E0AF96005EB36F /* SettingsViewController.m */; };
+		067B413719E0AF96005EB36F /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067B411F19E0AF96005EB36F /* SettingsViewController.xib */; };
+		067B413819E0AF96005EB36F /* CountryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B412119E0AF96005EB36F /* CountryListViewController.m */; };
+		067B413919E0AF96005EB36F /* CountryListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067B412219E0AF96005EB36F /* CountryListViewController.xib */; };
+		067B413A19E0AF96005EB36F /* AddPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B412419E0AF96005EB36F /* AddPostViewController.m */; };
+		067B413B19E0AF96005EB36F /* AddPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067B412519E0AF96005EB36F /* AddPostViewController.xib */; };
+		067B413C19E0AF96005EB36F /* LostAndFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067B412619E0AF96005EB36F /* LostAndFoundCell.xib */; };
+		067B413D19E0AF96005EB36F /* LostAndFoundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B412819E0AF96005EB36F /* LostAndFoundCell.m */; };
+		067B413E19E0AF96005EB36F /* LostAndFoundSmallCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067B412919E0AF96005EB36F /* LostAndFoundSmallCell.xib */; };
+		067B413F19E0AF96005EB36F /* LostAndFoundSmallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B412B19E0AF96005EB36F /* LostAndFoundSmallCell.m */; };
+		067B414019E0AF96005EB36F /* PostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067B412C19E0AF96005EB36F /* PostViewController.xib */; };
+		067B414119E0AF96005EB36F /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B412F19E0AF96005EB36F /* PostViewController.m */; };
+		067B414219E0AF96005EB36F /* ItemDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067B413119E0AF96005EB36F /* ItemDetailsViewController.m */; };
+		067B414319E0AF96005EB36F /* ItemDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067B413219E0AF96005EB36F /* ItemDetailsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		067B40E319E0AF31005EB36F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 067B40C119E0AF31005EB36F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 067B40C819E0AF31005EB36F;
+			remoteInfo = CalHack22;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067B40C919E0AF31005EB36F /* CalHack22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalHack22.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		067B40CD19E0AF31005EB36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067B40CE19E0AF31005EB36F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		067B40D919E0AF31005EB36F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		067B40DC19E0AF31005EB36F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		067B40E219E0AF31005EB36F /* CalHack22Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalHack22Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		067B40E719E0AF31005EB36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067B40E819E0AF31005EB36F /* CalHack22Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalHack22Tests.m; sourceTree = "<group>"; };
+		067B40F219E0AF58005EB36F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		067B40F419E0AF68005EB36F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		067B40F519E0AF68005EB36F /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		067B40F619E0AF68005EB36F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		067B40F719E0AF68005EB36F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		067B40F819E0AF68005EB36F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		067B40F919E0AF68005EB36F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		067B40FA19E0AF68005EB36F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		067B40FB19E0AF68005EB36F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		067B40FC19E0AF68005EB36F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		067B40FD19E0AF68005EB36F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		067B40FE19E0AF68005EB36F /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		067B40FF19E0AF68005EB36F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		067B410019E0AF68005EB36F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		067B410119E0AF68005EB36F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		067B410219E0AF69005EB36F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/Mafqood-master/Parse.framework"; sourceTree = "<group>"; };
+		067B410319E0AF69005EB36F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		067B410419E0AF69005EB36F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		067B410519E0AF69005EB36F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		067B411819E0AF96005EB36F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "../../../../Downloads/Mafqood-master/MafqoodApp/AppDelegate.h"; sourceTree = "<group>"; };
+		067B411919E0AF96005EB36F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "../../../../Downloads/Mafqood-master/MafqoodApp/AppDelegate.m"; sourceTree = "<group>"; };
+		067B411A19E0AF96005EB36F /* NoLostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoLostsViewController.h; path = "../../../../Downloads/Mafqood-master/MafqoodApp/NoLostsViewController.h"; sourceTree = "<group>"; };
+		067B411B19E0AF96005EB36F /* NoLostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoLostsViewController.m; path = "../../../../Downloads/Mafqood-master/MafqoodApp/NoLostsViewController.m"; sourceTree = "<group>"; };
+		067B411C19E0AF96005EB36F /* NoLostsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoLostsViewController.xib; path = "../../../../Downloads/Mafqood-master/MafqoodApp/NoLostsViewController.xib"; sourceTree = "<group>"; };
+		067B411D19E0AF96005EB36F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = "../../../../Downloads/Mafqood-master/MafqoodApp/SettingsViewController.h"; sourceTree = "<group>"; };
+		067B411E19E0AF96005EB36F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = "../../../../Downloads/Mafqood-master/MafqoodApp/SettingsViewController.m"; sourceTree = "<group>"; };
+		067B411F19E0AF96005EB36F /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = "../../../../Downloads/Mafqood-master/MafqoodApp/SettingsViewController.xib"; sourceTree = "<group>"; };
+		067B412019E0AF96005EB36F /* CountryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountryListViewController.h; path = "../../../../Downloads/Mafqood-master/MafqoodApp/CountryListViewController.h"; sourceTree = "<group>"; };
+		067B412119E0AF96005EB36F /* CountryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountryListViewController.m; path = "../../../../Downloads/Mafqood-master/MafqoodApp/CountryListViewController.m"; sourceTree = "<group>"; };
+		067B412219E0AF96005EB36F /* CountryListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CountryListViewController.xib; path = "../../../../Downloads/Mafqood-master/MafqoodApp/CountryListViewController.xib"; sourceTree = "<group>"; };
+		067B412319E0AF96005EB36F /* AddPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddPostViewController.h; path = "../../../../Downloads/Mafqood-master/MafqoodApp/AddPostViewController.h"; sourceTree = "<group>"; };
+		067B412419E0AF96005EB36F /* AddPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddPostViewController.m; path = "../../../../Downloads/Mafqood-master/MafqoodApp/AddPostViewController.m"; sourceTree = "<group>"; };
+		067B412519E0AF96005EB36F /* AddPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddPostViewController.xib; path = "../../../../Downloads/Mafqood-master/MafqoodApp/AddPostViewController.xib"; sourceTree = "<group>"; };
+		067B412619E0AF96005EB36F /* LostAndFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LostAndFoundCell.xib; path = "../../../../Downloads/Mafqood-master/MafqoodApp/LostAndFoundCell.xib"; sourceTree = "<group>"; };
+		067B412719E0AF96005EB36F /* LostAndFoundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LostAndFoundCell.h; path = "../../../../Downloads/Mafqood-master/MafqoodApp/LostAndFoundCell.h"; sourceTree = "<group>"; };
+		067B412819E0AF96005EB36F /* LostAndFoundCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LostAndFoundCell.m; path = "../../../../Downloads/Mafqood-master/MafqoodApp/LostAndFoundCell.m"; sourceTree = "<group>"; };
+		067B412919E0AF96005EB36F /* LostAndFoundSmallCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LostAndFoundSmallCell.xib; path = "../../../../Downloads/Mafqood-master/MafqoodApp/LostAndFoundSmallCell.xib"; sourceTree = "<group>"; };
+		067B412A19E0AF96005EB36F /* LostAndFoundSmallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LostAndFoundSmallCell.h; path = "../../../../Downloads/Mafqood-master/MafqoodApp/LostAndFoundSmallCell.h"; sourceTree = "<group>"; };
+		067B412B19E0AF96005EB36F /* LostAndFoundSmallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LostAndFoundSmallCell.m; path = "../../../../Downloads/Mafqood-master/MafqoodApp/LostAndFoundSmallCell.m"; sourceTree = "<group>"; };
+		067B412D19E0AF96005EB36F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "../../../../Downloads/Mafqood-master/MafqoodApp/en.lproj/PostViewController.xib"; sourceTree = "<group>"; };
+		067B412E19E0AF96005EB36F /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PostViewController.h; path = "../../../../Downloads/Mafqood-master/MafqoodApp/PostViewController.h"; sourceTree = "<group>"; };
+		067B412F19E0AF96005EB36F /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PostViewController.m; path = "../../../../Downloads/Mafqood-master/MafqoodApp/PostViewController.m"; sourceTree = "<group>"; };
+		067B413019E0AF96005EB36F /* ItemDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemDetailsViewController.h; path = "../../../../Downloads/Mafqood-master/MafqoodApp/ItemDetailsViewController.h"; sourceTree = "<group>"; };
+		067B413119E0AF96005EB36F /* ItemDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemDetailsViewController.m; path = "../../../../Downloads/Mafqood-master/MafqoodApp/ItemDetailsViewController.m"; sourceTree = "<group>"; };
+		067B413219E0AF96005EB36F /* ItemDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ItemDetailsViewController.xib; path = "../../../../Downloads/Mafqood-master/MafqoodApp/ItemDetailsViewController.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		067B40C619E0AF31005EB36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067B410E19E0AF69005EB36F /* QuartzCore.framework in Frameworks */,
+				067B411619E0AF69005EB36F /* Foundation.framework in Frameworks */,
+				067B410619E0AF69005EB36F /* MessageUI.framework in Frameworks */,
+				067B411319E0AF69005EB36F /* AudioToolbox.framework in Frameworks */,
+				067B411219E0AF69005EB36F /* CFNetwork.framework in Frameworks */,
+				067B411119E0AF69005EB36F /* CoreLocation.framework in Frameworks */,
+				067B410B19E0AF69005EB36F /* SystemConfiguration.framework in Frameworks */,
+				067B411719E0AF69005EB36F /* CoreGraphics.framework in Frameworks */,
+				067B411419E0AF69005EB36F /* Parse.framework in Frameworks */,
+				067B410919E0AF69005EB36F /* Social.framework in Frameworks */,
+				067B410C19E0AF69005EB36F /* StoreKit.framework in Frameworks */,
+				067B40F319E0AF58005EB36F /* MessageUI.framework in Frameworks */,
+				067B410819E0AF69005EB36F /* Accounts.framework in Frameworks */,
+				067B411519E0AF69005EB36F /* UIKit.framework in Frameworks */,
+				067B410719E0AF69005EB36F /* Twitter.framework in Frameworks */,
+				067B410D19E0AF69005EB36F /* Security.framework in Frameworks */,
+				067B410F19E0AF69005EB36F /* MobileCoreServices.framework in Frameworks */,
+				067B411019E0AF69005EB36F /* libz.1.1.3.dylib in Frameworks */,
+				067B410A19E0AF69005EB36F /* AdSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067B40DF19E0AF31005EB36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067B40C019E0AF31005EB36F = {
+			isa = PBXGroup;
+			children = (
+				067B40CB19E0AF31005EB36F /* CalHack22 */,
+				067B40E519E0AF31005EB36F /* CalHack22Tests */,
+				067B40CA19E0AF31005EB36F /* Products */,
+				067B40F419E0AF68005EB36F /* MessageUI.framework */,
+				067B40F519E0AF68005EB36F /* Twitter.framework */,
+				067B40F619E0AF68005EB36F /* Accounts.framework */,
+				067B40F719E0AF68005EB36F /* Social.framework */,
+				067B40F819E0AF68005EB36F /* AdSupport.framework */,
+				067B40F919E0AF68005EB36F /* SystemConfiguration.framework */,
+				067B40FA19E0AF68005EB36F /* StoreKit.framework */,
+				067B40FB19E0AF68005EB36F /* Security.framework */,
+				067B40FC19E0AF68005EB36F /* QuartzCore.framework */,
+				067B40FD19E0AF68005EB36F /* MobileCoreServices.framework */,
+				067B40FE19E0AF68005EB36F /* libz.1.1.3.dylib */,
+				067B40FF19E0AF68005EB36F /* CoreLocation.framework */,
+				067B410019E0AF68005EB36F /* CFNetwork.framework */,
+				067B410119E0AF68005EB36F /* AudioToolbox.framework */,
+				067B410219E0AF69005EB36F /* Parse.framework */,
+				067B410319E0AF69005EB36F /* UIKit.framework */,
+				067B410419E0AF69005EB36F /* Foundation.framework */,
+				067B410519E0AF69005EB36F /* CoreGraphics.framework */,
+				067B40F219E0AF58005EB36F /* MessageUI.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		067B40CA19E0AF31005EB36F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				067B40C919E0AF31005EB36F /* CalHack22.app */,
+				067B40E219E0AF31005EB36F /* CalHack22Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		067B40CB19E0AF31005EB36F /* CalHack22 */ = {
+			isa = PBXGroup;
+			children = (
+				067B411819E0AF96005EB36F /* AppDelegate.h */,
+				067B411919E0AF96005EB36F /* AppDelegate.m */,
+				067B411A19E0AF96005EB36F /* NoLostsViewController.h */,
+				067B411B19E0AF96005EB36F /* NoLostsViewController.m */,
+				067B411C19E0AF96005EB36F /* NoLostsViewController.xib */,
+				067B411D19E0AF96005EB36F /* SettingsViewController.h */,
+				067B411E19E0AF96005EB36F /* SettingsViewController.m */,
+				067B411F19E0AF96005EB36F /* SettingsViewController.xib */,
+				067B412019E0AF96005EB36F /* CountryListViewController.h */,
+				067B412119E0AF96005EB36F /* CountryListViewController.m */,
+				067B412219E0AF96005EB36F /* CountryListViewController.xib */,
+				067B412319E0AF96005EB36F /* AddPostViewController.h */,
+				067B412419E0AF96005EB36F /* AddPostViewController.m */,
+				067B412519E0AF96005EB36F /* AddPostViewController.xib */,
+				067B412619E0AF96005EB36F /* LostAndFoundCell.xib */,
+				067B412719E0AF96005EB36F /* LostAndFoundCell.h */,
+				067B412819E0AF96005EB36F /* LostAndFoundCell.m */,
+				067B412919E0AF96005EB36F /* LostAndFoundSmallCell.xib */,
+				067B412A19E0AF96005EB36F /* LostAndFoundSmallCell.h */,
+				067B412B19E0AF96005EB36F /* LostAndFoundSmallCell.m */,
+				067B412C19E0AF96005EB36F /* PostViewController.xib */,
+				067B412E19E0AF96005EB36F /* PostViewController.h */,
+				067B412F19E0AF96005EB36F /* PostViewController.m */,
+				067B413019E0AF96005EB36F /* ItemDetailsViewController.h */,
+				067B413119E0AF96005EB36F /* ItemDetailsViewController.m */,
+				067B413219E0AF96005EB36F /* ItemDetailsViewController.xib */,
+				067B40D919E0AF31005EB36F /* Images.xcassets */,
+				067B40DB19E0AF31005EB36F /* LaunchScreen.xib */,
+				067B40CC19E0AF31005EB36F /* Supporting Files */,
+			);
+			path = CalHack22;
+			sourceTree = "<group>";
+		};
+		067B40CC19E0AF31005EB36F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				067B40CD19E0AF31005EB36F /* Info.plist */,
+				067B40CE19E0AF31005EB36F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		067B40E519E0AF31005EB36F /* CalHack22Tests */ = {
+			isa = PBXGroup;
+			children = (
+				067B40E819E0AF31005EB36F /* CalHack22Tests.m */,
+				067B40E619E0AF31005EB36F /* Supporting Files */,
+			);
+			path = CalHack22Tests;
+			sourceTree = "<group>";
+		};
+		067B40E619E0AF31005EB36F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				067B40E719E0AF31005EB36F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		067B40C819E0AF31005EB36F /* CalHack22 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067B40EC19E0AF31005EB36F /* Build configuration list for PBXNativeTarget "CalHack22" */;
+			buildPhases = (
+				067B40C519E0AF31005EB36F /* Sources */,
+				067B40C619E0AF31005EB36F /* Frameworks */,
+				067B40C719E0AF31005EB36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalHack22;
+			productName = CalHack22;
+			productReference = 067B40C919E0AF31005EB36F /* CalHack22.app */;
+			productType = "com.apple.product-type.application";
+		};
+		067B40E119E0AF31005EB36F /* CalHack22Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067B40EF19E0AF31005EB36F /* Build configuration list for PBXNativeTarget "CalHack22Tests" */;
+			buildPhases = (
+				067B40DE19E0AF31005EB36F /* Sources */,
+				067B40DF19E0AF31005EB36F /* Frameworks */,
+				067B40E019E0AF31005EB36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				067B40E419E0AF31005EB36F /* PBXTargetDependency */,
+			);
+			name = CalHack22Tests;
+			productName = CalHack22Tests;
+			productReference = 067B40E219E0AF31005EB36F /* CalHack22Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		067B40C119E0AF31005EB36F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = SetarehLotfi;
+				TargetAttributes = {
+					067B40C819E0AF31005EB36F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					067B40E119E0AF31005EB36F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 067B40C819E0AF31005EB36F;
+					};
+				};
+			};
+			buildConfigurationList = 067B40C419E0AF31005EB36F /* Build configuration list for PBXProject "CalHack22" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 067B40C019E0AF31005EB36F;
+			productRefGroup = 067B40CA19E0AF31005EB36F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				067B40C819E0AF31005EB36F /* CalHack22 */,
+				067B40E119E0AF31005EB36F /* CalHack22Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		067B40C719E0AF31005EB36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067B414319E0AF96005EB36F /* ItemDetailsViewController.xib in Resources */,
+				067B413B19E0AF96005EB36F /* AddPostViewController.xib in Resources */,
+				067B413919E0AF96005EB36F /* CountryListViewController.xib in Resources */,
+				067B414019E0AF96005EB36F /* PostViewController.xib in Resources */,
+				067B413519E0AF96005EB36F /* NoLostsViewController.xib in Resources */,
+				067B413C19E0AF96005EB36F /* LostAndFoundCell.xib in Resources */,
+				067B413E19E0AF96005EB36F /* LostAndFoundSmallCell.xib in Resources */,
+				067B40DD19E0AF31005EB36F /* LaunchScreen.xib in Resources */,
+				067B40DA19E0AF31005EB36F /* Images.xcassets in Resources */,
+				067B413719E0AF96005EB36F /* SettingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067B40E019E0AF31005EB36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		067B40C519E0AF31005EB36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067B414219E0AF96005EB36F /* ItemDetailsViewController.m in Sources */,
+				067B413D19E0AF96005EB36F /* LostAndFoundCell.m in Sources */,
+				067B413419E0AF96005EB36F /* NoLostsViewController.m in Sources */,
+				067B413319E0AF96005EB36F /* AppDelegate.m in Sources */,
+				067B413A19E0AF96005EB36F /* AddPostViewController.m in Sources */,
+				067B413F19E0AF96005EB36F /* LostAndFoundSmallCell.m in Sources */,
+				067B414119E0AF96005EB36F /* PostViewController.m in Sources */,
+				067B40CF19E0AF31005EB36F /* main.m in Sources */,
+				067B413619E0AF96005EB36F /* SettingsViewController.m in Sources */,
+				067B413819E0AF96005EB36F /* CountryListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067B40DE19E0AF31005EB36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067B40E919E0AF31005EB36F /* CalHack22Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		067B40E419E0AF31005EB36F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 067B40C819E0AF31005EB36F /* CalHack22 */;
+			targetProxy = 067B40E319E0AF31005EB36F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		067B40DB19E0AF31005EB36F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067B40DC19E0AF31005EB36F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		067B412C19E0AF96005EB36F /* PostViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067B412D19E0AF96005EB36F /* en */,
+			);
+			name = PostViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		067B40EA19E0AF31005EB36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		067B40EB19E0AF31005EB36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		067B40ED19E0AF31005EB36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Setareh/Downloads/Mafqood-master",
+				);
+				INFOPLIST_FILE = CalHack22/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		067B40EE19E0AF31005EB36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Setareh/Downloads/Mafqood-master",
+				);
+				INFOPLIST_FILE = CalHack22/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		067B40F019E0AF31005EB36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CalHack22Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalHack22.app/CalHack22";
+			};
+			name = Debug;
+		};
+		067B40F119E0AF31005EB36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CalHack22Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalHack22.app/CalHack22";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		067B40C419E0AF31005EB36F /* Build configuration list for PBXProject "CalHack22" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067B40EA19E0AF31005EB36F /* Debug */,
+				067B40EB19E0AF31005EB36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		067B40EC19E0AF31005EB36F /* Build configuration list for PBXNativeTarget "CalHack22" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067B40ED19E0AF31005EB36F /* Debug */,
+				067B40EE19E0AF31005EB36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		067B40EF19E0AF31005EB36F /* Build configuration list for PBXNativeTarget "CalHack22Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067B40F019E0AF31005EB36F /* Debug */,
+				067B40F119E0AF31005EB36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 067B40C119E0AF31005EB36F /* Project object */;
+}
