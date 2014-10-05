@@ -3,6 +3,7 @@
  */
 
 Parse.initialize("tjUwVLI6219JVwwhcry4HNBWMC60Q3xh8005NHBQ", "GxSaftLTUQ1itlVKSay4QNLkVafIiPrhVgHSqPA7");
+
 // on button-click
 function formSubmit(event) {
     if (event && event.preventdefault) {
@@ -34,19 +35,6 @@ function formSubmit(event) {
     NewEntry.save().then(function(obj){
         console.log("Success");
     });
-
-
-//        //null, {
-//        success: function(NewEntry) {
-//            alert('New obj created with obj id: ' + NewEntry.id);
-//        },
-//        error: function(NewEntry, error) {
-//            // Execute any logic that should take place if the save fails.
-//            // error is a Parse.Error with an error code and message.
-//            alert('Failed to create new object, with error code: ' + error.message);
-//        }
-//    //});
-
     return false;
 }
 
@@ -69,8 +57,6 @@ function showListings() {
             })
 
             $("#listing").append(finalHTML);
-
-
 
         },
         error: function(error) {
