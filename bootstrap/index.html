@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <script src="//www.parsecdn.com/js/parse-1.3.0.min.js"></script>
+    <script src="js/handlebars-v2.0.0.js"></script>
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
 
@@ -40,7 +41,7 @@
 
 </head>
 
-<body>
+<body onload="showListings()">
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -96,74 +97,27 @@
         <!-- /.row -->
 
         <!-- Page Features -->
-        <div class="row text-center">
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-
-			<h4 class="text-left"><small>Time posted</small></h4>
-			
-                        <h2>Description</h3>
-                        <p> -- posting description -- </p>
-                        <p>
-				<!-- links to email to seller -->
-                            <a href="rent.html" class="btn btn-primary">Rent Now!</a> 
-			    	<!-- detailed message page -->
-			    <a href="detailed.html" class="btn btn-default">More Info</a>
-                        </p>
+        <div class="row text-center" id="listing">
+            <script type="text/x-handlebars-template" id="listing-template">
+                {{#each results}}
+                <div class="col-md-3 col-sm-6 hero-feature">
+                        <div class="thumbnail">
+                            <img src="{{ Picture.url }}" alt="">
+                            <div class="caption">
+                                <h2>{{ Title }}</h2>
+                                <p>{{ Description }}</p>
+                                <p>
+                            <!-- links to email to seller -->
+                                    <a href="rent.html" class="btn btn-primary">Rent Now!</a>
+                            <!-- detailed message page -->
+                        <a href="detailed.html" class="btn btn-default">More Info</a>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
+                {{/each}}
+            </script>
 
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-
-			<h4 class="text-left"><small>Time posted</small></h4>
-                        <h3>Description</h3>
-                        <p> -- posting description -- </p>
-                        <p>
-                            <a href="rent.html" class="btn btn-primary">Rent Now!</a> 
-			    <a href="detailed.html" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-
-			<h4 class="text-left"><small>Time posted</small></h4>
-                        <h3>Description</h3>
-                        <p> -- posting description -- </p>
-                        <p>
-                            <a href="rent.html" class="btn btn-primary">Rent Now!</a> 
-			    <a href="detailed.html" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-
-			<h4 class="text-left"><small>Time posted</small></h4>
-                        <h3>Description</h3>
-                        <p> -- posting description -- </p>
-                        <p>
-                            <a href="rent.html" class="btn btn-primary">Rent Now!</a> 
-			    <a href="detailed.html" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
 
         </div>
         <!-- /.row -->
@@ -174,7 +128,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; CalHacks 2014</p>
                 </div>
             </div>
         </footer>
