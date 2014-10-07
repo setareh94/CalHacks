@@ -18,6 +18,7 @@
     UIButton* checkButton;
     UIButton* xButton;
     UIButton* Reserve;
+    UIButton* ReserveHighLight;
 }
 //this makes it so only two cards are loaded at a time to
 //avoid performance and memory costs
@@ -101,9 +102,16 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
 //%%% loads all the cards and puts the first x in the "loaded cards" array
 -(void)loadCards
 {
+    UIImage *buttonImage = [UIImage imageNamed:@"greyButton.png"];
+    UIImage *buttonImageHighlight = [UIImage imageNamed:@"greyButtonHighlight.png"];
+    Reserve = [[UIButton alloc]initWithFrame:CGRectMake(100, 230, 120, 35)];
+    [Reserve setBackgroundImage:buttonImage forState:UIControlStateNormal];
+    [Reserve setBackgroundImage:buttonImageHighlight forState:UIControlStateHighlighted];
+    [Reserve setTitle:@"Reserve Now!" forState:UIControlStateNormal];
+    [Reserve setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    Reserve.titleLabel.font = [UIFont fontWithName:@"Poetsen One" size:12.0];
     
-    Reserve = [[UIButton alloc]initWithFrame:CGRectMake(50, 120, 200, 200)];
-    [Reserve setImage:[UIImage imageNamed:@"filled_box-32"] forState:UIControlStateNormal];
+
     if([allCards count] > 0) {
         NSInteger numLoadedCardsCap =(([allCards count] > MAX_BUFFER_SIZE)?MAX_BUFFER_SIZE:[allCards count]);
         //%%% if the buffer size is greater than the data size, there will be an array error, so this makes sure that doesn't happen
