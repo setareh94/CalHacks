@@ -4,7 +4,7 @@
 <p> Currently avilable for iOS and Desktop, this is fall 2014 CalHacks hack using Parse as backend</p>
 
 
-[Store With Me](http://www.plshire.me/storewithme/)
+[Give Store With Me a Try!](http://www.plshire.me/storewithme/)
 
 
 <p>Here is a quick glance of StoreWithMe</p>
