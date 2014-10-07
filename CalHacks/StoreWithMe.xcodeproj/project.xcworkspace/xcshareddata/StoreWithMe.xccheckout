@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC5C9DA1-8046-4C9B-A1A7-7FE46CABB18B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StoreWithMe</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>57A063A5867CC1350E55FFFC971A90193D2BBC7B</key>
+		<string>https://github.com/setareh94/Calhacks.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CalHacks/StoreWithMe.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>57A063A5867CC1350E55FFFC971A90193D2BBC7B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/setareh94/Calhacks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>57A063A5867CC1350E55FFFC971A90193D2BBC7B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>57A063A5867CC1350E55FFFC971A90193D2BBC7B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CalHack</string>
+		</dict>
+	</array>
+</dict>
+</plist>
