@@ -96,7 +96,7 @@
         
         self.information.text = [self.data objectForKey:@"Title"];
         [self.information setTextAlignment:NSTextAlignmentCenter];
-        self.information.font = [UIFont fontWithName:@"PoetsenOne-Regular.ttf" size:14];
+        self.information.font = [UIFont fontWithName:@"PoetsenOne-Regular" size:14];
 
         self.information.textColor = [UIColor blackColor];
         
