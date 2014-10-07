@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06122B7119E3A55400D56CDB /* PoetsenOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06122B7019E3A48F00D56CDB /* PoetsenOne-Regular.ttf */; };
 		0647C35419E1BBBB00C36682 /* DBChooser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0676FEBD19E186DF00C15228 /* DBChooser.framework */; };
 		0647C35519E1BBC600C36682 /* DBChooser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0676FEBC19E186DE00C15228 /* DBChooser.bundle */; };
 		0647C35719E1C7CC00C36682 /* full_basket_shopping-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 0647C35619E1C7CC00C36682 /* full_basket_shopping-512.png */; };
@@ -54,9 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06122B7019E3A48F00D56CDB /* PoetsenOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PoetsenOne-Regular.ttf"; sourceTree = "<group>"; };
 		0647C35619E1C7CC00C36682 /* full_basket_shopping-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_basket_shopping-512.png"; sourceTree = "<group>"; };
 		0647C35819E1D3C900C36682 /* filled_box-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filled_box-32.png"; sourceTree = "<group>"; };
-		0676FEBB19E10D6800C15228 /* PoetsenOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PoetsenOne-Regular.ttf"; path = "../../../../Downloads/PoetsenOne-Regular.ttf"; sourceTree = "<group>"; };
 		0676FEBC19E186DE00C15228 /* DBChooser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DBChooser.bundle; path = "../../../Downloads/CalHacks-master/CalHacks/DBChooser.bundle"; sourceTree = "<group>"; };
 		0676FEBD19E186DF00C15228 /* DBChooser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DBChooser.framework; path = "../../../Downloads/CalHacks-master/CalHacks/DBChooser.framework"; sourceTree = "<group>"; };
 		0676FEC019E1870100C15228 /* AddPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddPictureViewController.h; path = "../../../../Downloads/CalHacks-master/CalHacks/CalHacks/AddPictureViewController.h"; sourceTree = "<group>"; };
@@ -197,7 +198,7 @@
 		0693ED7619DFE542002C01BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0676FEBB19E10D6800C15228 /* PoetsenOne-Regular.ttf */,
+				06122B7019E3A48F00D56CDB /* PoetsenOne-Regular.ttf */,
 				0693EDB219E00E4E002C01BC /* delivery13.png */,
 				0693EDAD19DFFA2F002C01BC /* plus25-4.png */,
 				0693ED7719DFE542002C01BC /* Info.plist */,
@@ -313,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06122B7119E3A55400D56CDB /* PoetsenOne-Regular.ttf in Resources */,
 				0693EDAE19DFFA2F002C01BC /* plus25-4.png in Resources */,
 				0693ED8219DFE542002C01BC /* Main.storyboard in Resources */,
 				0693ED8719DFE542002C01BC /* LaunchScreen.xib in Resources */,

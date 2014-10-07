@@ -96,11 +96,21 @@
         
         self.information.text = [self.data objectForKey:@"Title"];
         [self.information setTextAlignment:NSTextAlignmentCenter];
-        self.information.font = [UIFont fontWithName:@"PoetsenOne-Regular" size:14];
+        UIFont *myFont = [UIFont fontWithName:@"PoetsenOne-Regular" size:20.0f];
+        [self.information setFont:myFont];
 
         self.information.textColor = [UIColor blackColor];
         
         self.backgroundColor = [UIColor whiteColor];
+        for (NSString* family in [UIFont familyNames])
+        {
+            NSLog(@"%@", family);
+            
+            for (NSString* name in [UIFont fontNamesForFamilyName: family])
+            {
+                NSLog(@"  %@", name);
+            }
+        }
 #warning placeholder stuff, replace with card-specific information }
 //        self.Closet = [[UIImageView alloc] initWithImage:self.imageView];
         NSLog (@"loadddddd");
